@@ -1,0 +1,63 @@
+//items
+
+item.contenttweaker.mana_emerald.name=Mana Emerald
+item.contenttweaker.mana_red_alloy_ingot.name=Mana Red Alloy Ingot
+item.contenttweaker.elven_red_alloy_ingot.name=Elven Red Alloy Ingot
+item.contenttweaker.elven_emerald.name=Elven Emerald
+item.contenttweaker.elven_soul.name=Elven Soul
+item.contenttweaker.eternal_catalyst.name=Eternal Catalyst
+item.contenttweaker.eternal_ingot.name=Eternal Ingot
+item.contenttweaker.eternal_matter.name=Eternal Matter
+item.contenttweaker.infinity_matter.name=Infinity Matter
+item.contenttweaker.ultimate_botania_flower.name=Ultimate Botania Flower
+item.contenttweaker.ultimate_botania_functional_flower.name=Ultimate Botania Functional Flower
+item.contenttweaker.ultimate_circuit.name=Ultimate Circuit
+item.contenttweaker.ultimate_flower.name=Ultimate Flower
+item.contenttweaker.ultimate_mushroom.name=Ultimate Mushroom
+item.contenttweaker.ultimate_rune.name=Ultimate Rune
+item.contenttweaker.ultimate_sapling_one.name=Ultimate Sapling
+item.contenttweaker.ultimate_seed.name=Ultimate Seed
+item.contenttweaker.ultimate_tinkers_ingot.name=Ultimate Tinkers Ingot
+item.contenttweaker.ultimate_helm.name=Ultimate helm
+item.contenttweaker.ultimate_sword.name=Ultimate sword
+item.contenttweaker.ultimate_pickaxe.name=Ultimate pickaxe
+item.contenttweaker.ultimate_shovel.name=Ultimate shovel
+item.contenttweaker.ultimate_bow.name=ultimate bow
+item.contenttweaker.ultimate_leggings.name=Ultimate leggings
+item.contenttweaker.ultimate_chestplate.name=Ultimate chestplate
+item.contenttweaker.ultimate_boots.name=Ultimate boots
+item.contenttweaker.ultimate_axe.name=Ultimate axe
+item.contenttweaker.ultimate_gem.name=Ultimate Gem
+item.contenttweaker.infinity_fuel.name=Infinty Fuel
+item.contenttweaker.eternal_fuel.name=Eternal Fuel
+item.contenttweaker.fuelteal.name=Cyan Fuel
+item.contenttweaker.fuelyellow.name=Yellow Fuel
+item.contenttweaker.fuellime.name=Lime Fuel
+item.contenttweaker.fuelblack.name=Black Fuel
+item.contenttweaker.fuelblue.name=Blue Fuel 
+item.contenttweaker.fuelmagenta.name=Magenta Fuel
+item.contenttweaker.fuelgreen.name=Green Fuel
+item.contenttweaker.fuelorange.name=Orange Fuel
+item.contenttweaker.fuelwhite.name=White Fuel
+item.contenttweaker.fuelviolet.name=Violet Fuel
+item.contenttweaker.fuelpink.name=Pink Fuel
+item.contenttweaker.fuelpurple.name=Purple Fuel
+item.contenttweaker.fueldarkmatter.name=Darkmatter Fuel
+
+//blocks
+
+tile.contenttweaker.treated_log.name=Treated Log
+tile.contenttweaker.skystone.name=Skystone
+tile.contenttweaker.eternal_ingot_block.name=Eternal Ingot Block
+tile.contenttweaker.eternal_matter_block.name=Eternal Matter Block
+tile.contenttweaker.infinity_matter_block.name=Infinity Matter Block
+tile.contenttweaker.ultimate_crafting_table.name=Ultimate Crafting Table
+tile.contenttweaker.ultimate_gem_block.name=Ultimate Gem Block
+tile.contenttweaker.ultimate_generator.name=Ultimate Generator
+tile.contenttweaker.ultimate_machine_frame.name=Ultimate Machine Frame
+tile.contenttweaker.ultimate_power_storage.name=Ultimate Power Storage
+tile.contenttweaker.eternal_fuel_block.name=Eternal Fuel Block
+tile.contenttweaker.infinity_fuel_block.name=Infinity Fuel Block
+
+//fluid
+
