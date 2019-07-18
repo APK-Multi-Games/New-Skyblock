@@ -1,0 +1,7 @@
+setSpawnStructure("platform")
+setSingleBiome("minecraft:ocean")
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+layers.addLayer(1~50, <thermalfoundation:fluid_ender>
+)
+addGenerator(layers)

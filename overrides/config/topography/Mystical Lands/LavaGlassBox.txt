@@ -1,0 +1,7 @@
+setSpawnStructure("glassbox")
+setSingleBiome("minecraft:ocean")
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+layers.addLayer(1~225, <minecraft:lava>
+)
+addGenerator(layers)

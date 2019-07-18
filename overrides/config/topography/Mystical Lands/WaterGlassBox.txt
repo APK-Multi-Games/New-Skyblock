@@ -1,0 +1,6 @@
+setSpawnStructure("glassbox")
+layers = new LayerGenerator()
+layers.addLayer(1~225, <minecraft:water>
+)
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)

@@ -1,0 +1,5 @@
+setSpawnStructure("platform")
+setSingleBiome("minecraft:ocean")
+layers = new LayerGenerator()
+layers.addLayer(0~50, <minecraft:web>)
+addGenerator(layers)

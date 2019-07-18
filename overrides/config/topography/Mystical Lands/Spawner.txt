@@ -1,0 +1,7 @@
+setSpawnStructure("Spawner")
+setSingleBiome("minecraft:ocean")
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+layers.addLayer(1~225, <minecraft:stone>)
+layers.addLayer(225~226,  <minecraft:grass>)
+addGenerator(layers)

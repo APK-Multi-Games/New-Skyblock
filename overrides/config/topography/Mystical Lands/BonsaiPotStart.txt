@@ -1,0 +1,2 @@
+setSpawnStructure("BonsaiPotStart")
+setSingleBiome("minecraft:ocean")

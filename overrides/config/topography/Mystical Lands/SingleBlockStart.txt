@@ -1,0 +1,2 @@
+setSpawnStructure("singleblock")
+setSingleBiome("minecraft:ocean")

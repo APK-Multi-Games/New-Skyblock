@@ -1,0 +1,70 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+
+PlatformStart = registerPreset("Platform Start", "images/Platform_Start", "the default island of the pack!")
+PlatformStart.registerDimension(0, "Mystical Lands/Platform Start")
+
+SingleBlockStart = registerPreset("Single Block Start", "images/SingleBlock", "Start on a Single block with the project E table!")
+SingleBlockStart.registerDimension(0, "Mystical Lands/SingleBlockStart")
+
+SkyislandsStart = registerPreset("Sky Islands Start", "images/Skyislands", "Start on a skyIsland!")
+SkyislandsStart.registerDimension(0, "Mystical Lands/Basic_sky_islands")
+
+MaterialIslands = registerPreset("Material Sky Islands Start", "images/MaterialIslands", "Start on a material sky island!")
+MaterialIslands.registerDimension(0, "Mystical Lands/material_sky_islands")
+
+CaveStart = registerPreset("Cave Start", "images/Cave_Start", "Start in a Cave!")
+CaveStart.registerDimension(0, "Mystical Lands/Cave World")
+
+SpawnerStart = registerPreset("Spawner Start", "images/Spawner_Start", "Start With a fully automatic mob spawner!")
+SpawnerStart.registerDimension(0, "Mystical Lands/Spawner")
+
+OverworldStart = registerPreset("Overworld Start", "images/Tower", "Start in the Overworld!")
+OverworldStart.registerDimension(0, "Mystical Lands/Overworld")
+
+ObsidianBoxStart = registerPreset("Obsidian Box Start", "images/ObsidianBox", "Start in a obsidian box in a world made of obsidian!")
+ObsidianBoxStart.registerDimension(0, "Mystical Lands/ObsidianWorld")
+
+MagmaBlockStart = registerPreset("Magma Block Start ", "images/MagmaBlock", "Start on a platform with the land being magma blocks!")
+MagmaBlockStart.registerDimension(0, "Mystical Lands/MagmaBlockStart")
+
+CobwebDeathStart = registerPreset("Cobweb Death", "images/CobwebDeath", "Start on a plaform with cobwebs looming below you!")
+CobwebDeathStart.registerDimension(0, "Mystical Lands/CobwebDeath")
+
+DeathBlockStart = registerPreset("Death Block Start", "images/DeathBlock", "Start in a room surrounded by cursed earth!")
+DeathBlockStart.registerDimension(0, "Mystical Lands/DeathBlock")
+
+BonsaiStart = registerPreset("Bonsai Start", "images/ChestStart", "Start on a platform with a chest that has a bonsai pot mk2!")
+BonsaiStart.registerDimension(0, "Mystical Lands/BonsaiStart")
+
+ProjectRedSystemStart = registerPreset("Project Red Storage System Start", "images/ChestStart", "Start on a platform with a chest that has some projectred stuff to make a storage system!")
+ProjectRedSystemStart.registerDimension(0, "Mystical Lands/ProjectRedSystemStart")
+
+BonsaiPotStart = registerPreset("Bonsai Pot Start", "images/ChestStart", "Start on a platform with a chest that has some hopping bonsai pots!")
+BonsaiPotStart.registerDimension(0, "Mystical Lands/BonsaiPotStart")
+
+//MemeStart = registerPreset("Secret Start", "images/", "Redacted!")
+//MemeStart.registerDimension(0, "Mystical Lands/MemeStart")
+
+//LavaOcean = registerPreset("Lava Ocean Start", "images/LavaOcean", "Start on a Platform with a lava ocean below!")
+//LavaOcean.registerDimension(0, "Mystical Lands/LavaOcean")
+
+//WaterOcean = registerPreset("Water Ocean Start", "images/WaterOcean", "Start on a Platform with a water ocean below!")
+//WaterOcean.registerDimension(0, "Mystical Lands/WaterOcean")
+
+//ResonantEnderOcean = registerPreset("Resonant Ender Ocean Start", "images/ResonantEnderOcean ", "Start on a Platform with a Resanant Ender ocean below!")
+//ResonantEnderOcean.registerDimension(0, "Mystical Lands/ResonantEnderOcean")
+
+//GlassBoxResonantEnder = registerPreset("Resonant Ender Glassbox Start", "images/ResonantEnderGlassBox ", "Start in a Glass box in a world Filled With Resanant Ender!")
+//GlassBoxResonantEnder.registerDimension(0, "Mystical Lands/ResonantEnderGlassBox")
+
+//GlassBoxLavaStart = registerPreset("Lava Glass Box Start", "images/LavaGlassBox", "Start in a Glass box in a world Filled With Lava!")
+//GlassBoxLavaStart.registerDimension(0, "Mystical Lands/LavaGlassBox")
+
+//GlassBoxWaterStart = registerPreset("Water Glass Box Start", "images/WaterGlassBox", "Start in a Glass box in a world Filled With Water!")
+//GlassBoxWaterStart.registerDimension(0, "Mystical Lands/WaterGlassBox")
+

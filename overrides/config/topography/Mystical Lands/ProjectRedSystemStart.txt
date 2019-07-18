@@ -1,0 +1,2 @@
+setSpawnStructure("projectredsystemstart")
+setSingleBiome("minecraft:ocean")
