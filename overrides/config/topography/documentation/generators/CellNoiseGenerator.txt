@@ -15,6 +15,10 @@ Constructor:
     Notes:
         This constructs a CellNoiseGenerator.
 
+closeTop:
+    Notes:
+        Sets the generator to scale noise in such a way that a roof will be generated at the top of the dimension.
+
 setCellFrequency:
     Arguments:
         float
@@ -23,6 +27,10 @@ setCellFrequency:
     Notes:
         Sets the frequency for the cell noise used for the generator. Higher values = more frequent changes. Default is 0.005.
 
+openTop:
+    Notes:
+        Sets the generator to scale noise in such a way that tendrils will taper off towards the top of the dimension. This is set by default.
+
 setCutoff:
     Arguments:
         double
@@ -30,12 +38,4 @@ setCutoff:
         cutoff
     Notes:
         Sets the noise cutoff for blocks to be placed. Higher values = more blocks. Default is -0.15.
-
-openTop:
-    Notes:
-        Sets the generator to scale noise in such a way that tendrils will taper off towards the top of the dimension. This is set by default.
-
-closeTop:
-    Notes:
-        Sets the generator to scale noise in such a way that a roof will be generated at the top of the dimension.
 

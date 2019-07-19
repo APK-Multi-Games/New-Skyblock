@@ -3303,6 +3303,22 @@
     {
       "item": "ic2:misc_resource|4",
       "emc": 32
+    },
+    {
+      "item": "extrautils2:ingredients|1",
+      "emc": 280
+    },
+    {
+      "item": "xreliquary:mob_ingredient|0",
+      "emc": 720
+    },
+    {
+      "item": "xreliquary:mob_ingredient|3",
+      "emc": 1152
+    },
+    {
+      "item": "xreliquary:mob_ingredient|2",
+      "emc": 72
     }
   ]
 }
