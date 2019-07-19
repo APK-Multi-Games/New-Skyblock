@@ -111,29 +111,29 @@ mods.avaritia.ExtremeCrafting.addShaped("infinity_boots" ,<avaritia:infinity_boo
 
 recipes.remove(<projectex:final_star_shard>);
 mods.avaritia.ExtremeCrafting.addShaped("Final_Star_Shard" ,<projectex:final_star_shard>, [
-[<avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:5>],
-[<avaritia:resource:6>, <avaritia:endest_pearl>, null, null, null, null, null, <avaritia:endest_pearl>, <avaritia:resource:6>],
-[<avaritia:resource:6>, null, null, null, null, null, null, null, <avaritia:resource:6>],
-[<avaritia:resource:6>, null, null,<projectex:colossal_star_omega>,<projectex:colossal_star_omega>,<projectex:colossal_star_omega>,null, null, <avaritia:resource:6>],
-[<avaritia:resource:5>, null, null,<projectex:colossal_star_omega>,<minecraft:nether_star>,<projectex:colossal_star_omega>,null, null, <avaritia:resource:5>],
-[<avaritia:resource:6>, null, null,<projectex:colossal_star_omega>,<projectex:colossal_star_omega>,<projectex:colossal_star_omega>,null, null, <avaritia:resource:6>],
-[<avaritia:resource:6>, null, null, null, null, null, null, null, <avaritia:resource:6>],
-[<avaritia:resource:6>, <avaritia:endest_pearl>, null, null, null, null, null, <avaritia:endest_pearl>, <avaritia:resource:6>],
-[<avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:5>]
+  [<avaritia:resource:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <avaritia:resource:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <avaritia:resource:5>], 
+  [<ore:ingotInfinity>, <avaritia:endest_pearl>, <projectex:colossal_star_omega>, null, <avaritia:singularity:11>, null, <projectex:colossal_star_omega>, <avaritia:endest_pearl>, <ore:ingotInfinity>], 
+  [<ore:ingotInfinity>, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>, null, <avaritia:singularity:11>, null, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>, <ore:ingotInfinity>], 
+  [<ore:ingotInfinity>, null, null, null, <avaritia:singularity:11>, null, null, null, <ore:ingotInfinity>], 
+  [<avaritia:resource:5>, <avaritia:singularity:11>, <avaritia:singularity:11>, <avaritia:singularity:11>, <ore:netherStar>, <avaritia:singularity:11>, <avaritia:singularity:11>, <avaritia:singularity:11>, <avaritia:resource:5>], 
+  [<ore:ingotInfinity>, null, null, null, <avaritia:singularity:11>, null, null, null, <ore:ingotInfinity>], 
+  [<ore:ingotInfinity>, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>, null, <avaritia:singularity:11>, null, <projectex:colossal_star_omega>, <projectex:colossal_star_omega>, <ore:ingotInfinity>], 
+  [<ore:ingotInfinity>, <avaritia:endest_pearl>, <projectex:colossal_star_omega>, null, <avaritia:singularity:11>, null, <projectex:colossal_star_omega>, <avaritia:endest_pearl>, <ore:ingotInfinity>], 
+  [<avaritia:resource:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <avaritia:resource:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <avaritia:resource:5>]
 ]);
 
 
 recipes.remove(<projectex:final_star>);
 mods.avaritia.ExtremeCrafting.addShaped("Final_Star" ,<projectex:final_star>, [
-  [<projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <avaritia:resource:5>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, <avaritia:endest_pearl>, null, null, <projectex:final_star_shard>, null, null, <avaritia:endest_pearl>, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, null, null, null, <projectex:final_star_shard>, null, null, null, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, null, null, <projectex:final_star_shard>, <avaritia:singularity:11>, <projectex:final_star_shard>, null, null, <projectex:final_star_shard>],
-  [<avaritia:resource:5>, <projectex:final_star_shard>, <projectex:final_star_shard>, <avaritia:singularity:11>, <avaritia:singularity:11>, <avaritia:singularity:11>, <projectex:final_star_shard>, <projectex:final_star_shard>, <avaritia:resource:5>],
-  [<projectex:final_star_shard>, null, null, <projectex:final_star_shard>, <avaritia:singularity:11>, <projectex:final_star_shard>, null, null, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, null, null, null, <projectex:final_star_shard>, null, null, null, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, <avaritia:endest_pearl>, null, null, <projectex:final_star_shard>, null, null, <avaritia:endest_pearl>, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <avaritia:resource:5>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>]
+  [<projectex:final_star_shard>, <projectex:final_star_shard>, <ore:ingotInfinity>, <ore:ingotInfinity>, <avaritia:resource:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <projectex:final_star_shard>, <projectex:final_star_shard>], 
+  [<projectex:final_star_shard>, <avaritia:endest_pearl>, <ore:ingotCosmicNeutronium>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <ore:ingotCosmicNeutronium>, <avaritia:endest_pearl>, <projectex:final_star_shard>], 
+  [<ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>], 
+  [<ore:ingotInfinity>, <projectex:final_star_shard>, null, null, <avaritia:singularity:11>, null, null, <projectex:final_star_shard>, <ore:ingotInfinity>], 
+  [<avaritia:resource:5>, <projectex:final_star_shard>, null, <avaritia:singularity:11>, null, <avaritia:singularity:11>, null, <projectex:final_star_shard>, <avaritia:resource:5>], 
+  [<ore:ingotInfinity>, <projectex:final_star_shard>, null, null, <avaritia:singularity:11>, null, null, <projectex:final_star_shard>, <ore:ingotInfinity>], 
+  [<ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>], 
+  [<projectex:final_star_shard>, <avaritia:endest_pearl>, <ore:ingotCosmicNeutronium>, <projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>, <ore:ingotCosmicNeutronium>, <avaritia:endest_pearl>, <projectex:final_star_shard>], 
+  [<projectex:final_star_shard>, <projectex:final_star_shard>, <ore:ingotInfinity>, <ore:ingotInfinity>, <avaritia:resource:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <projectex:final_star_shard>, <projectex:final_star_shard>]
 ]);
 
 
