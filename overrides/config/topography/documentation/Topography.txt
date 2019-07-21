@@ -25,19 +25,19 @@ registerPreset:
 
 registerPreset:
     Arguments:
-        String, String
-    Usage:
-        preset name, image location
-    Notes:
-        Creates a preset object and returns it. Image references a file in the topography folder. Image may be null.
-
-registerPreset:
-    Arguments:
         String
     Usage:
         preset name
     Notes:
         Creates a preset object and returns it.
+
+registerPreset:
+    Arguments:
+        String, String, String
+    Usage:
+        preset name, image location, description
+    Notes:
+        Creates a preset object and returns it. Image references a file in the topography folder. Image/description may be null.
 
 registerPreset:
     Arguments:
@@ -49,9 +49,9 @@ registerPreset:
 
 registerPreset:
     Arguments:
-        String, String, String
+        String, String
     Usage:
-        preset name, image location, description
+        preset name, image location
     Notes:
-        Creates a preset object and returns it. Image references a file in the topography folder. Image/description may be null.
+        Creates a preset object and returns it. Image references a file in the topography folder. Image may be null.
 

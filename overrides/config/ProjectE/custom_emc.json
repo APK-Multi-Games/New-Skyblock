@@ -3319,6 +3319,38 @@
     {
       "item": "xreliquary:mob_ingredient|2",
       "emc": 72
+    },
+    {
+      "item": "forge:bucketfilled|0",
+      "emc": 0
+    },
+    {
+      "item": "redstonearsenal:material|0",
+      "emc": 1920
+    },
+    {
+      "item": "redstonearsenal:material|32",
+      "emc": 1920
+    },
+    {
+      "item": "inspirations:materials|6",
+      "emc": 19
+    },
+    {
+      "item": "skyresources:alchemyitemcomponent|6",
+      "emc": 704
+    },
+    {
+      "item": "skyresources:alchemyitemcomponent|10",
+      "emc": 8704
+    },
+    {
+      "item": "skyresources:alchemyitemcomponent|5",
+      "emc": 29317
+    },
+    {
+      "item": "inspirations:materials|8",
+      "emc": 1
     }
   ]
 }

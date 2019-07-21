@@ -11,14 +11,6 @@ setLength:
     Notes:
         Sets the minimum and maximum length of the vines. Vines will not generate if there is insufficient space for minimum length. Default is 3 and 20.
 
-setHeightRange:
-    Arguments:
-        int, int
-    Usage:
-        min height(exclusive), max height(inclusive)
-    Notes:
-        Sets the min and max heights the top of vines will generate. Vines can hang below as long as their top is within the range. Default is 0 and 255.
-
 setBlock:
     Arguments:
         ItemBlockData
@@ -34,4 +26,12 @@ setAttemptsPerChunk:
         attempt count
     Notes:
         Sets the number of positions on the horizontal plane to attempt to generate vines per chunk. Default is 3 and 20.
+
+setHeightRange:
+    Arguments:
+        int, int
+    Usage:
+        min height(exclusive), max height(inclusive)
+    Notes:
+        Sets the min and max heights the top of vines will generate. Vines can hang below as long as their top is within the range. Default is 0 and 255.
 
