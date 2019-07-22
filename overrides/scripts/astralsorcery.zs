@@ -1,12 +1,29 @@
-#Name: astralsorcery.zs
-#Author: Raziel23x
+####################################################################################################
+# Author: Raziel23x                                                                                #
+####################################################################################################
+# Astral Sorcery                      		                                                       #
+####################################################################################################
+import crafttweaker.item.IIngredient as IIngredient;
+import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict as IOreDict;
+import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+import mods.jei.JEI.removeAndHide as rh;
+#### ORE DICT       ####
 
-print("Initializing 'astralsorcery'...");
+#### REMOVE RECIPES ####
+# recipes.remove(<>);
+recipes.remove(<astralsorcery:blockaltar>);
 
-//recipes.remove(<>);
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
+#### REM LOOT TABLE ####
 
-//Resonating Wand
+#### CHANGE RECIPES ####
+/* recipes.addShaped(<>, 
+[[<>, 	<>, 	<>], 
+[<>, 	<>, 	<>], 
+[<>, 	<>, 	<>]]);
+*/
+
+# Resonating Wand
 recipes.addShaped(<astralsorcery:itemwand>.withTag({astralsorcery: {}}), 
 	[
 		[null, 					<astralsorcery:itemcraftingcomponent>,	<minecraft:ender_pearl>], 
@@ -14,12 +31,12 @@ recipes.addShaped(<astralsorcery:itemwand>.withTag({astralsorcery: {}}),
 		[<ore:stoneMarble>, 	null, 									null]
 	]);
 
-//Luminous Crafting Table
+# Luminous Crafting Table
 recipes.addShaped(<astralsorcery:blockaltar>, 
 	[
-		[<ore:stoneMarble>, <ore:asSootyMarbleAny>, 	<ore:stoneMarble>], 
+		[<ore:stoneMarble>, <astralsorcery:blockblackmarble>, 	<ore:stoneMarble>], 
 		[<ore:stoneMarble>, <ore:workbench>,			<ore:stoneMarble>], 
 		[<ore:stoneMarble>, null,						<ore:stoneMarble>]
 	]);
 
-print("Initialized 'astralsorcery'");
+#### ADD RECIPES    ####

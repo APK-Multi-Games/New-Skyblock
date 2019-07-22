@@ -1,5 +1,15 @@
-//remove
+####################################################################################################
+# Author: Raziel23x                                                                                #
+####################################################################################################
+# Extended Crafting                                                                                #
+####################################################################################################
+import mods.jei.JEI.removeAndHide as rh;
 
+#### REMOVE RECIPES ####
+# recipes.remove(<>);
+
+recipes.remove(<extendedcrafting:storage:2>);
+rh(<extendedcrafting:storage:2>);
 recipes.remove(<extendedcrafting:table_ultimate>);
 recipes.remove(<extendedcrafting:table_elite>);
 recipes.remove(<extendedcrafting:table_advanced>);
@@ -10,8 +20,16 @@ recipes.remove(<extendedcrafting:compressor>);
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
 recipes.remove(<extendedcrafting:material>);
 
-//add
+#### REM LOOT TABLE ####
 
+#### CHANGE RECIPES ####
+/* recipes.addShaped(<>, 
+[[<>, 	<>, 	<>], 
+[<>, 	<>, 	<>], 
+[<>, 	<>, 	<>]]);
+*/
+
+#### ADD RECIPES    ####
 recipes.addShaped(<extendedcrafting:table_ultimate>, [[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:17>],[<minecraft:emerald_block>, <extendedcrafting:table_elite>, <minecraft:emerald_block>], [<extendedcrafting:material:17>, <extendedcrafting:material:2>, <extendedcrafting:material:17>]]);
 recipes.addShaped(<extendedcrafting:table_elite>, [[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>],[<minecraft:diamond_block>, <extendedcrafting:table_advanced>, <minecraft:diamond_block>], [<extendedcrafting:material:16>, <extendedcrafting:material:2>, <extendedcrafting:material:16>]]);
 recipes.addShaped(<extendedcrafting:table_advanced>, [[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>],[<minecraft:gold_block>, <extendedcrafting:table_basic>, <minecraft:gold_block>], [<extendedcrafting:material:15>, <extendedcrafting:material:2>, <extendedcrafting:material:15>]]);

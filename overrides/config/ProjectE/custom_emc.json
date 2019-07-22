@@ -3371,6 +3371,18 @@
     {
       "item": "openblocks:fan|0",
       "emc": 512
+    },
+    {
+      "item": "tp:growth_block|0",
+      "emc": 2843
+    },
+    {
+      "item": "tp:growth_upgrade|0",
+      "emc": 289922
+    },
+    {
+      "item": "tp:growth_upgrade_two|0",
+      "emc": 1296818
     }
   ]
 }
