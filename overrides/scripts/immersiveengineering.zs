@@ -128,7 +128,7 @@ import mods.immersiveengineering.Crusher.addRecipe as CrusheraddRecipe;
 		[<immersiveengineering:tool>, <ore:ingotCopper>]);
 	recipes.addShapeless(<thermalfoundation:material:32>, 
 	[<immersiveengineering:tool>, <ore:ingotIron>]);
-
+/*
 # Immersive Engineering Blueprint Recipes
 	recipes.remove(<immersiveengineering:blueprint>);
 	recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), 
@@ -147,7 +147,7 @@ import mods.immersiveengineering.Crusher.addRecipe as CrusheraddRecipe;
 	[[<minecraft:gunpowder>, 	<ore:ingotCopper>, 			<minecraft:gunpowder>], 
 	[<minecraft:dye:4>, 		<minecraft:gunpowder>, 		<minecraft:dye:4>], 
 	[<minecraft:paper>, 		<minecraft:paper>, 			<minecraft:paper>]]);
-
+*/
 
 # Large Plates in Immersive Engineering Metal Press
 	#OutputStack, InputStack, MoldStack, Energy, SizeValue

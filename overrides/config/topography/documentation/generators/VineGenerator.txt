@@ -19,14 +19,6 @@ setBlock:
     Notes:
         Sets the block to generate vines out of. Must extend vanilla vines.
 
-setAttemptsPerChunk:
-    Arguments:
-        int
-    Usage:
-        attempt count
-    Notes:
-        Sets the number of positions on the horizontal plane to attempt to generate vines per chunk. Default is 3 and 20.
-
 setHeightRange:
     Arguments:
         int, int
@@ -34,4 +26,12 @@ setHeightRange:
         min height(exclusive), max height(inclusive)
     Notes:
         Sets the min and max heights the top of vines will generate. Vines can hang below as long as their top is within the range. Default is 0 and 255.
+
+setAttemptsPerChunk:
+    Arguments:
+        int
+    Usage:
+        attempt count
+    Notes:
+        Sets the number of positions on the horizontal plane to attempt to generate vines per chunk. Default is 3 and 20.
 

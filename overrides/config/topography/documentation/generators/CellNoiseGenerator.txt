@@ -15,10 +15,6 @@ Constructor:
     Notes:
         This constructs a CellNoiseGenerator.
 
-closeTop:
-    Notes:
-        Sets the generator to scale noise in such a way that a roof will be generated at the top of the dimension.
-
 setCellFrequency:
     Arguments:
         float
@@ -38,4 +34,8 @@ setCutoff:
         cutoff
     Notes:
         Sets the noise cutoff for blocks to be placed. Higher values = more blocks. Default is -0.15.
+
+closeTop:
+    Notes:
+        Sets the generator to scale noise in such a way that a roof will be generated at the top of the dimension.
 

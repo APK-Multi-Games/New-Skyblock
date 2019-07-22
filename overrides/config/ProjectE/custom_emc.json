@@ -3351,6 +3351,26 @@
     {
       "item": "inspirations:materials|8",
       "emc": 1
+    },
+    {
+      "item": "quark:cooked_frog_leg|0",
+      "emc": 128
+    },
+    {
+      "item": "randomthings:spectrecoil_number|0",
+      "emc": 512
+    },
+    {
+      "item": "botania:overgrowthseed|0",
+      "emc": 512
+    },
+    {
+      "item": "botania:blacklotus|1",
+      "emc": 512
+    },
+    {
+      "item": "openblocks:fan|0",
+      "emc": 512
     }
   ]
 }

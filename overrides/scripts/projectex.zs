@@ -24,6 +24,6 @@ recipes.remove(<projectex:stone_table>);
 */
 recipes.addShaped(<projectex:stone_table>, 
 [[<ore:stone>, 				<projectex:collector>, 								<ore:stone>], 
-[<projectex:energy_link>, 	<projecte:item.pe_philosophers_stone>.withTag({}), 	<projecte:alchemical_chest>], 
+[<projectex:energy_link>, 	<projecte:item.pe_philosophers_stone>, 	<projecte:alchemical_chest>], 
 [<ore:stone>, 				<projectex:relay>, 									<ore:stone>]]);
 #### ADD RECIPES    ####

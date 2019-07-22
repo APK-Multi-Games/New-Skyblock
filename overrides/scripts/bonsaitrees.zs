@@ -33,18 +33,19 @@ val hoppers = [
 */
 
 # Hopping Bonsai Pot
-	recipes.remove(<bonsaitrees:bonsaipot:1>);
-	recipes.addShapeless(<bonsaitrees:bonsaipot:1>, 
+recipes.remove(<bonsaitrees:bonsaipot:1>);
+recipes.addShapeless(<bonsaitrees:bonsaipot:1>, 
 	[<bonsaitrees:bonsaipot>, <ore:bHopper>]);
-	recipes.addShaped(<bonsaitrees:bonsaipot:1>, 
+	
+recipes.addShaped(<bonsaitrees:bonsaipot:1>, 
 	[[<minecraft:brick>, 	null, 				<minecraft:brick>], 
 	[<minecraft:brick>, 	<minecraft:brick>, 	<minecraft:brick>], 
 	[null, 					<ore:bHopper>,		null]]);
 
 
 # Bonsai Pot
-	recipes.remove(<bonsaitrees:bonsaipot>);
-	recipes.addShaped(<bonsaitrees:bonsaipot>, 
+recipes.remove(<bonsaitrees:bonsaipot>);
+recipes.addShaped(<bonsaitrees:bonsaipot>, 
 	[[null, 				null, 				null], 
 	[<minecraft:brick>, 	null, 				<minecraft:brick>], 
 	[<minecraft:brick>, 	<minecraft:brick>, 	<minecraft:brick>]]);
